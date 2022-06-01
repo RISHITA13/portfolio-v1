@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character encoding and responsive viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <!-- Logo / Name -->
+            <a href="#home" class="logo">My Portfolio</a>
+            
+            <!-- Hamburger menu button for mobile devices -->
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+            </button>
+            
+            <!-- Navigation links -->
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="resume.pdf" class="nav-link resume-link" download>Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Your Name</span></h1>
+            <p class="hero-subtitle">Recent Graduate | Aspiring Developer | Problem Solver</p>
+            <p class="hero-description">
+                Welcome to my personal portfolio. I'm excited to share my journey, projects, and skills with you.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <!-- Profile image placeholder -->
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/300x300?text=Your+Photo" alt="Your profile photo">
+                </div>
+                <div class="about-text">
+                    <p>
+                        Hello! I recently graduated from college and I'm eager to start my career in technology.
+                        I enjoy building things that live on the internet and solving real-world problems through code.
+                    </p>
+                    <p>
+                        During my studies, I worked on various projects that helped me develop a strong foundation in
+                        programming, teamwork, and problem-solving. I'm always looking to learn new technologies and improve my skills.
+                    </p>
+                    <p>
+                        When I'm not coding, I enjoy reading, exploring new tools, and collaborating with others on interesting ideas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <!-- Individual skill cards -->
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Building semantic and accessible web pages.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Styling responsive and modern layouts.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Adding interactivity and dynamic behavior.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>Writing clean scripts and backend logic.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Git</h3>
+                    <p>Version control and collaboration.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Problem Solving</h3>
+                    <p>Breaking down complex challenges into simple steps.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project card 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x200?text=Project+1" alt="Project 1 screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project One</h3>
+                        <p>A brief description of what this project does and what technologies were used.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project card 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x200?text=Project+2" alt="Project 2 screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Two</h3>
+                        <p>A brief description of what this project does and what technologies were used.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project card 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x200?text=Project+3" alt="Project 3 screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Three</h3>
+                        <p>A brief description of what this project does and what technologies were used.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-list">
+                <!-- Education item 1 -->
+                <div class="education-item">
+                    <div class="education-year">2020 - 2024</div>
+                    <div class="education-details">
+                        <h3>Bachelor of Science in Computer Science</h3>
+                        <p>Your University Name</p>
+                        <p>Graduated with relevant coursework in software engineering, databases, and web development.</p>
+                    </div>
+                </div>
+                
+                <!-- Education item 2 -->
+                <div class="education-item">
+                    <div class="education-year">2018 - 2020</div>
+                    <div class="education-details">
+                        <h3>High School Diploma</h3>
+                        <p>Your High School Name</p>
+                        <p>Focused on mathematics and science.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Resume download button -->
+            <div class="resume-download">
+                <a href="resume.pdf" class="btn btn-primary" download>
+                    Download My Resume
+                </a>
+                <p class="resume-note">Replace resume.pdf with your actual resume file.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p class="contact-intro">
+                I'd love to hear from you! Fill out the form below or reach out through email.
+            </p>
+            <div class="contact-content">
+                <!-- Contact form -->
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <p class="form-status" id="form-status"></p>
+                </form>
+                
+                <!-- Contact information -->
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><strong>Email:</strong> <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+                    <p><strong>Location:</strong> Your City, Country</p>
+                    
+                    <!-- Social links -->
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" class="social-link" aria-label="GitHub">GitHub</a>
+                        <a href="#" class="social-link" aria-label="Twitter">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Your Name. All rights reserved.</p>
+            <p>Built with HTML, CSS, and JavaScript.</p>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
